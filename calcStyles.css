@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 800px;
+    height: 600px;       
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.calculator{
+    width: 250px;
+    height: 500.11px;
+}
+
+.myCalc{
+    width: 120%;
+    height: 100%;
+    border-radius: 12px;    
+    margin-top: -70px;
+    box-shadow: 0px 0px 3px 2px grey;
+}
+
+.top-calc{
+    height: 40%;
+    border-radius: 12px 12px 0 0;
+    background-color: black; 
+}
+
+.full-display{
+    margin-top: 30%;
+    width: 100%;
+    word-wrap: break-word;
+    height: 60%;
+}
+
+.full-display .first-display{
+    margin-top: 70px;
+}
+
+.full-display p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buttons-container{
+    height: 60%;
+    background: #F0F0F3;
+    border-radius: 8px;
+}
+
+.but-cont{
+    margin-top: -45px;
+}
+
+.first-display{    
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.row{
+    margin-left: 5px;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.row-sci{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.button-cont{
+    width: 100%;
+    margin: auto; 
+} 
+.input-tag{
+    width: 50px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 1.2px rgb(157, 157, 157)
+}
+
+input{
+    font-size: 24px;
+    font-weight: 500;
+    color: #728AB7;
+}
+
+.equals{
+    background: rgb(147, 245, 147);
+}
